@@ -4,6 +4,7 @@ ChinesePinyin
 Translate chinese hanzi to pinyin by python.
 
 inspired by flyerhzm's <https://github.com/flyerhzm/chinese_pinyin>
+
 The dict is borrowed from <http://github.com/fayland/perl-lingua-han/tree/master/Lingua-Han-PinYin/>
 
 Install
