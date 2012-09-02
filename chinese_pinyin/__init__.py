@@ -12,8 +12,8 @@ class Pinyin(object):
         -----
         ::
             In [1]: from ChinesePinyin import Pinyin
-            In [2]: Pinyin.t("中国汉字")
-            Out[3]: 'shanghai'
+            In [2]: Pinyin.t("汉字")
+            Out[3]: 'han zi'
     """
 
     p = None
@@ -82,4 +82,4 @@ class Pinyin(object):
         return cls.p.translate(chars, splitter)
     
 if __name__ == "__main__":
-    print Pinyin.t("hi 中国汉字", " ")
+    print Pinyin.t("hi 中国汉字")
